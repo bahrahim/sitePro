@@ -12,4 +12,9 @@
 body {
   background-color: #1E1E24;
 }
+
+.cover {
+  height: 360px;
+  background: url(./images/cover_overlay.png) no-repeat center/100% 100%, url(./images/cover.jpg) no-repeat center/cover;
+}
 /*# sourceMappingURL=index.css.map */
