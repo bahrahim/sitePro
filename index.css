@@ -1,0 +1,15 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  resize: none;
+}
+
+body {
+  background-color: #1E1E24;
+}
+/*# sourceMappingURL=index.css.map */
