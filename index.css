@@ -9,6 +9,8 @@
   outline: none;
   resize: none;
   font-family: 'Poppins', sans-serif;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 body {
@@ -31,6 +33,7 @@ body {
   color: #CEDADA;
   text-align: center;
   margin-top: 20px;
+  font-size: 15px;
 }
 
 .cover .profil-cover {
@@ -43,15 +46,20 @@ body {
 }
 
 .cover .contact-cover {
-  background-color: #462255;
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 10px;
-  border-left: 4px solid chocolate;
+  border-left: 4px solid #fc742c;
+  padding-left: 8px;
 }
 
 .cover .contact-cover p {
   text-align: left;
+  margin-top: 0px;
+}
+
+.cover .contact-cover p :first-child {
+  margin-bottom: 50px;
 }
 
 .cover .contact-cover a {
@@ -64,9 +72,14 @@ body {
   margin-top: 40px;
 }
 
-.cover .btn a {
+.cover .btn :hover {
   color: #FCFCFC;
-  border: 3px solid chocolate;
+  border: 3px solid #FCFCFC;
+}
+
+.cover .btn a {
+  color: #fc742c;
+  border: 3px solid #fc742c;
   padding: 8px 20px;
   background-color: #00000040;
   opacity: 40;
